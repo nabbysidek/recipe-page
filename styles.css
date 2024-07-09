@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    /* COLOURS */
+    /* PRIMARY COLOURS */
+        --NUTMEG: hsl(14, 45%, 36%);
+        --DARK-RASPBERRY: hsl(332, 51%, 32%);
+
+    /* NEUTRAL COLOURS */
+        --WHITE: hsl(0, 0%, 100%);
+        --ROSE-WHITE: hsl(330, 100%, 98%);
+        --EGG-SHELL: hsl(30, 54%, 90%);
+        --LIGHT-GREY: hsl(30, 18%, 87%);
+        --WENGE-BROWN: hsl(30, 10%, 34%);
+        --DARK-CHARCOAL: hsl(24, 5%, 18%);
+
+    /* FONT SIZE FOR PARAGRAPH */
+        --font-size: 16px;
+}
+
+.container {
+    padding-left: 0px;
+}
+
+.recipe-img img {
+    max-width: 100vw;
+    padding-left: 0px;
+    padding-right: 0px;
+}
