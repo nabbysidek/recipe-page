@@ -12,23 +12,18 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
-    - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
   - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./design/solution.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [URL here](https://github.com/nabbysidek/recipe-page)
+- Live Site URL: [URL here](https://nabbysidek.github.io/recipe-page/)
 
 ## My process
 
@@ -39,54 +34,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - Bootstrap
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-As this project only involves simple HTML & CSS, I will also go back to basics by only including Bootstrap library through this practice.
-
-Here are some points that I focused on for this challenge:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+Working on this project with a mobile-first workflow for the first time has been an enlightening experience. Adopting this approach, I focused on designing the mobile version of the website before scaling up to larger screens. This method emphasized the importance of simplicity and prioritizing essential content, ensuring a clean and efficient user experience on small devices. It also helped me identify and address potential layout issues early in the development process. Additionally, I gained a deeper understanding of responsive design principles and CSS media queries, which are crucial for creating a seamless and adaptive web experience across different devices. Overall, the mobile-first workflow has equipped me with new skills and a fresh perspective on web design, ultimately making me a more versatile and effective developer.
 
 ## Author
 
-- Linkedin - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Linkedin - [Aina Balqis](https://www.linkedin.com/in/nabbysidek/)
+- Frontend Mentor - [@nabbysidek](https://www.frontendmentor.io/profile/nabbysidek)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
