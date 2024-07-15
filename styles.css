@@ -25,17 +25,22 @@ html, body {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
     font-family: "Young Serif", serif;
 }
 
-p {
+h6, p {
     font-family: "Outfit", sans-serif;
+    font-size: var(--font-size);
 }
 
 .container {
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.container-body {
+    padding: 30px;
 }
 
 .recipe-img img {
@@ -44,6 +49,80 @@ p {
     width: 100%;
 }
 
-.recipe-title {
-    padding: 20px;
+.prep-time {
+    padding: 20px 20px 10px 30px;
+    background-color: rgba(133, 42, 88, 0.1); /* dark raspberry */
+}
+.prep-time h6 {
+    color: var(--DARK-RASPBERRY);
+    font-weight: 600;
+}
+
+.container-section {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid var(--LIGHT-GREY);
+}
+.container-section h2 {
+    color: var(--NUTMEG);
+}
+.container-last{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+}
+.container-last h2 {
+    color: var(--NUTMEG);
+}
+
+.nutrition-row {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--LIGHT-GREY);
+}
+
+/* DETAILS */
+.bold {
+    font-weight: bold;
+}
+.bold-charcoal {
+    color: var(--DARK-CHARCOAL);
+}
+.bold-nutmeg {
+    color: var(--NUTMEG);
+}
+.unordered-list li {
+    line-height: 2rem;
+}
+
+ol li::marker {
+    color: var(--NUTMEG);
+    font-weight: bold;
+}
+li {
+    padding-left: 15px;
+}
+
+/* DESKTOP VIEW */
+@media (min-width:1025px) {
+    body {
+        background-color: var(--EGG-SHELL);
+    }
+    .container {
+        width: 50%;
+        margin: 2rem auto;
+        border-radius: 15px;
+        background-color: var(--ROSE-WHITE);
+    }
+    .recipe-img img {
+        width: 93%;
+        margin: 1rem auto 0rem auto;
+        border-radius: 15px;
+    }
+    .container-mini {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
